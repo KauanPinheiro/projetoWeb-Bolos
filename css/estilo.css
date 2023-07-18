@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+header{
+    background-color: #000000c2;
+    height: 100px;
+}
+main{
+    background-color: rgb(59, 130, 236);
+}
+footer{
+    background-color: rgba(106, 14, 211, 0.89);
+}
+figure,nav,ul,li{
+    display: inline;
+}
+a{
+    color: #fff ;
+    text-decoration: none;
+    padding: 15px;
+}
+#btn-entrar{
+    background-color: red;
+    border-radius: 20px;
+}
+#btn-entrar:hover{
+    background-color: #1800f5;
+    transition: 1s;
+}
+div{
+    width: 300px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    border: 3px solid yellow;
+    
+}
+nav{
+    position: fixed  ;
+    top: 50 px;
+    left: 200px;
+}
