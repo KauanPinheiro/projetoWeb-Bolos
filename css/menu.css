@@ -9,21 +9,19 @@ header{
     height: 70px   ;
     padding-top: 30px;
 }
-nav{
-    overflow: hidden;
+nav,ul,li {
+    display: inline;
 }
 li a{
-    display: inline;
-    font-size: 17px;
-    color: white    ;
+    color: white;
     text-decoration: none;
-    padding: 16px 16px;
-    
+    padding: 23px;
+    padding-top: 30px;
+    padding-bottom: 22px;
 }
 .ativo{
     background-color: rgba(0, 128, 0, 0.486);
 }
-
 .servico:hover{
     background-color: rgba(240, 248, 255, 0.555);
 }
